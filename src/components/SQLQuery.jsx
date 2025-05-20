@@ -121,6 +121,7 @@ const SQLQuery = () => {
   </td>
 ))}
 
+
                 </tr>
               ))}
             </tbody>
