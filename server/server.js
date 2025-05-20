@@ -15,6 +15,7 @@ const pool = new Pool({
   port: process.env.DB_PORT || 5432,
 });
 
+
 // Middleware
 app.use(cors());
 app.use(express.json());
