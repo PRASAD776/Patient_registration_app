@@ -11,8 +11,7 @@ const EditPatientModal = ({ patient, onClose, onSave }) => {
         address: patient.address || '',
         phone: patient.phone || '',
         email: patient.email || '',
-      });
-      
+      }); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
