@@ -17,6 +17,7 @@ export default function PatientRegistration() {
     email: '',
   });
 
+  
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
