@@ -13,6 +13,7 @@ class DatabaseService {
   async initialize() {
     if (this.initialized) return;
 
+    
     try {
       this.db = await getDatabase();
 
