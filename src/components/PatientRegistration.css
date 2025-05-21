@@ -34,7 +34,9 @@
   margin-bottom: 22px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   width: 100%;
   padding: 12px 14px;
   margin-top: 6px;
@@ -42,13 +44,15 @@ input, select, textarea {
   border: 2px solid #a4b1b9; /* muted grey-blue */
   border-radius: 10px;
   background-color: #f9fafc;
-  color: #04040a; /* Indigo text */
+  color: #2c2c2c; /* dark text */
   font-size: 16px;
   transition: border-color 0.3s, box-shadow 0.3s;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus,
+select:focus,
+textarea:focus {
   outline: none;
   border-color: #14b8a6; /* teal highlight */
   box-shadow: 0 0 10px 2px rgba(20, 184, 166, 0.4);
@@ -62,6 +66,7 @@ select {
   background-position: right 14px center;
   background-size: 1em;
   padding-right: 36px;
+  color: #2c2c2c; /* black select text */
 }
 
 button {
@@ -155,8 +160,8 @@ button:disabled {
   border: 2px solid #a4b1b9;
   border-radius: 12px;
   box-sizing: border-box;
-  resize: none; 
-  color: #4f46e5;
+  resize: none;
+  color: #2c2c2c; /* dark text */
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -175,7 +180,7 @@ button:disabled {
 }
 
 .registration-card .form-group textarea {
-  height: 110px; 
+  height: 110px;
 }
 
 .actionButtons {
@@ -190,4 +195,10 @@ h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 0.06em;
   font-weight: 700;
+}
+
+/* Fix white calendar icon to black */
+input[type="date"] {
+  color-scheme: light;
+  color: #000000;
 }
