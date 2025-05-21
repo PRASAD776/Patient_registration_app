@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 // vite.config.js
 export default {
+  base: './',
   optimizeDeps: {
     exclude: ['@electric-sql/pglite'],
   },
@@ -13,4 +14,7 @@ export default {
     },
   },
 };
+// export default {
+  
+// };
 
