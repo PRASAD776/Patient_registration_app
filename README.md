@@ -92,7 +92,7 @@ PGlite is a lightweight PostgreSQL-compatible database that runs entirely in the
 ## 🚀 Deployment Notes
 
 ### Vercel
-
+Hosted on Vercel: [View Live](https://patient-registration-application.vercel.app/)
 If deploying to Vercel:
 - Ensure `vite.config.js` has correct `base` and routing setup
 - Avoid server routes unless using SSR
